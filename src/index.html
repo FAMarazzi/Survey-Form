@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>Survey Form </title>
+    <meta charset="utf-8"></meta>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  </head>
+  <body id="main">
+    <h1 id="title"> Survey Form</h1>
+    <p id="description"> Obteniendo certificado Survey Form freeCodeCamp</p>
+    <form id="survey-form">
+      <div class="divs-form">
+      <label id="name-label" for="name">Nombre</label>
+      <input id="name" type="text" placeHolder="Ingrese su nombre" required>
+      </div>
+      <div class="divs-form">
+      <label id="email-label" for="email" >Email</label>
+      <input id="email" type="email" placeHolder="Ingrese su email" required>
+      </div>
+      <div class="divs-form">
+      <label id="number-label" for="number">Edad</label>
+      <input max="150" min="18"id="number" type="number" placeHolder="Edad">
+      </div>
+      <div class="divs-form">
+      <label id="dropdown-label" for="dropdown">Seleccione su puesto actual</label>
+      <select id="dropdown" placeHolder="Seleccione" >
+        <option disabled selected>Selecciona una opción</option>
+        <option value="frontend dev">Frontend Developer</option>
+        <option value="profesor">Profesor de Javascript</option>
+        <option value="backend dev">Backend Developer</option>
+      </select>
+      </div>
+      <div class="divs-form">
+      <label id="recomendar-label">¿Recomendarías freeCodeCamp a un amigo?</label>
+      <label class="label-radio" for="si">
+      <input name="recomendar" class="radio" value="si" id="si" type="radio"> Si, lo recomendaría.</label>
+      <label class="label-radio" for="no">
+      <input name="recomendar" class="radio" id="no" type="radio"  value="no"> No, no lo recomendaría.</label> 
+      <label class="label-radio" for="no se">
+      <input name="recomendar" class="radio" id="no se" type="radio" value="no se"> No estoy seguro.</label>
+      </div>
+      <div class="divs-form">
+      <label> ¿Qué te interesa aprender en freeCodeCamp?</label>
+      <label class=>
+      <input class="check" id="frontend" type="checkbox" value="frontend"
+>Proyectos Frontend</label> 
+      <label class=>
+      <input class="check" id="backend" type="checkbox" value="backend">Proyectos Backend</label> 
+      <label>
+      <input class="check" id="certifications" type="checkbox" value="certifications">Para obtener Certificaciones.</label> 
+      <label class=>
+      <input class="check" id="desafios" type="checkbox" value="desafios"
+>Para plantearme nuevos desafíos.</label> 
+      <label class=>
+      <input class="check" id="trabajo" type="checkbox" value="trabajo
+">Para conseguir un trabajo. </label>
+      </div>
+      <div class="divs-form">
+      <label for="textarea">¿Algo mas para agregar?</label>
+      <textarea placeholder="Escriba sus comentarios..."></textarea>
+      </div>
+      <div class="divs-form">
+      <button
+ type="submit" id="submit"> <span>Enviar formulario</span>
+      </button>
+      </div>
+      </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
+
+

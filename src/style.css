@@ -1,0 +1,64 @@
+:root{
+--dark-blue-transp:rgba(25, 40, 65, 0.8); 
+}
+label{
+  display:auto;
+  width:100%;
+  margin-bottom:0.25rem;
+}
+
+input:not(.radio, .check, #submit){
+  display:flex;
+  width:100%;
+  height:1.5rem
+}
+body{
+  font-family: 'Lato', sans-serif;
+background-image:linear-gradient(75deg, rgba(0,0,210,0.3), rgba(0,76,153, 0.5)), url(https://www.georgetown.edu/wp-content/uploads/2019/09/20190828_FirstDay_NingLeng-_McCourt-45110optimized-2000x1500-c-default.jpg);
+  color: white;
+}
+.divs-form{
+  margin:1rem;
+  display:flex;
+  flex-direction:column;
+}
+select{
+  display:flex;
+  width:100%;
+}
+
+
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+textarea{
+  height: 8rem;
+  width: 100%;
+  resize: vertical;
+  min-height: 4rem;
+}
+
+.radio{
+  width:auto;
+}
+
+form{
+  background-color: var(--dark-blue-transp);
+  padding:1rem;
+  width: 75%;
+  border-radius:1rem;
+  margin: auto;
+  max-width: 500px;
+  min-height:600px;
+}
+
+button{
+  width: 100%;
+  height: 1.5rem;
+}
+span{
+  text-align:center;
+}
